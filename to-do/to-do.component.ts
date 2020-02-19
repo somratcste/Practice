@@ -25,7 +25,7 @@ export class ToDoComponent implements OnInit {
 
   public name: string = '';
   public items: Array<TodoItem> = [];
-  public itemObj: any;
+  public itemObj: TodoItem;
 
   public add() {
     this.itemObj = {
